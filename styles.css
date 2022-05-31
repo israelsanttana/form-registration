@@ -10,7 +10,6 @@ body {
     background-color: rgba(243, 27, 27, 0.54);
     display: grid;
     grid-template-columns: 50% 50%;
-    height: calc(100vh);
     align-items: center;
     justify-content: center;
 
@@ -29,8 +28,8 @@ body {
     grid-column: 1/2;
     grid-row: 2/2;
     padding: 3rem;
-    margin-left: 55px ;
-    margin-bottom:100px;
+    margin-left: 60px ;
+    margin-bottom:10px;
   
 }
 
@@ -62,7 +61,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 50px;
     
 
 
@@ -94,7 +93,9 @@ body {
     justify-content: space-evenly;  
     background-color: #fff;
     align-items: center;
-    margin-bottom: 80px;
+    margin-top: 10px;
+    
+   
 
 }
 
@@ -110,6 +111,7 @@ body {
     font-size: 9px;
     border: 1px solid rgb(227, 225, 225);
     border-radius: 3px;
+    margin-top: -9px;
     
 
 }
@@ -129,9 +131,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-
-
+    margin-top: -5px;
 
 }
 
