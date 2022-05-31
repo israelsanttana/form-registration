@@ -12,6 +12,7 @@ body {
     grid-template-columns: 50% 50%;
     height: calc(100vh);
     align-items: center;
+    justify-content: center;
 
     
 
@@ -28,15 +29,15 @@ body {
     grid-column: 1/2;
     grid-row: 2/2;
     padding: 3rem;
-    margin-left: 3rem;
-    margin-bottom: 2rem;
+    margin-left: 55px ;
+    margin-bottom:100px;
   
 }
 
 
 
 .title-initial h2 {
-    font-size: 25px ;
+    font-size: 35px ;
     font-family: Poppins;
     font-weight: 700;
     color: #fff;
@@ -54,27 +55,27 @@ body {
 
 
 .button-container {
-    width: 300px;
+    width: 360px;
     height: 50px;
     grid-column: 2/3;
     grid-row: 1/2;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
-    margin-bottom: -7rem;
+    margin-top: 80px;
+    
 
 
 }
 
 #button-try {
-    width: 300px;
-    height: 30px;
+    width: 360px;
+    height: 40px;
     font-family: Poppins;
     font-weight: 400;
     font-size: 9px;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 8px;
     border-style: initial;
     background-color: hsla(246, 56%, 54%, 0.892);
 
@@ -84,15 +85,16 @@ body {
 
 
 .card-container {
-    width: 300px;
-    height: 325px;
-    border-radius: 5px;
+    width: 360px;
+    height: 330px;
+    border-radius: 8px;
     grid-column: 2/3;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;  
     background-color: #fff;
     align-items: center;
+    margin-bottom: 80px;
 
 }
 
@@ -101,21 +103,22 @@ body {
 #last-name,
 #email-register,
 #password-register {
-    width: 250px;
-    height: 30px;
+    width: 315px;
+    height: 40px;
     font-family: Poppins;
     font-weight: 400;
     font-size: 9px;
-    border: 1px solid red;
+    border: 1px solid rgb(227, 225, 225);
     border-radius: 3px;
+    
 
 }
 
 
 
 #button-claim {
-    width: 250px;
-    height: 30px;
+    width: 315px;
+    height: 40px;
     font-family: Poppins;
     font-weight: 400;
     font-size: 9px;
@@ -126,7 +129,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: -45px;
+    
 
 
 
