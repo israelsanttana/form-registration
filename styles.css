@@ -24,7 +24,7 @@
 }
 
 .title-initial h2 {
-  font-size: 50px;
+  font-size: 47px;
   font-family: Poppins;
   font-weight: 600;
   color: #fff;
@@ -84,8 +84,7 @@
   font-weight: 400;
   font-size: 9px;
   border: 1px solid rgb(227, 225, 225);
-  border-radius: 3px;
-  margin-top: -9px;
+  border-radius: 7px;
 }
 
 input::placeholder {
@@ -103,7 +102,7 @@ input::placeholder {
   font-weight: 400;
   font-size: 14px;
   color: #fff;
-  border-radius: 3px;
+  border-radius: 7px;
   border-style: initial;
   background-color: hsla(154, 59%, 51%);
   display: flex;
@@ -111,4 +110,20 @@ input::placeholder {
   justify-content: center;
   margin-top: -5px;
   letter-spacing: 2px;
+}
+
+.terms {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 550;
+  color: rgb(166, 164, 164);
+  padding-bottom: 30px;
+}
+
+.terms-span {
+  color: rgb(211, 38, 38);
+}
+
+.try-span {
+  font-weight: 600;
 }
