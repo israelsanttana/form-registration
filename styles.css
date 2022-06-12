@@ -6,7 +6,7 @@
 
 .general-container {
   background-image: url(./images/bg-intro-desktop.png);
-  background-color: rgba(243, 27, 27, 0.54);
+  background-color: rgba(235, 0, 0, 0.572);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,44 +14,46 @@
 }
 
 .title-initial {
-  width: 400px;
+  width: 500px;
   height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  grid-column: 1/2;
-  grid-row: 2/2;
+  padding-bottom: 75px;
+  margin-right: 60px;
 }
 
 .title-initial h2 {
-  font-size: 35px;
+  font-size: 50px;
   font-family: Poppins;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   display: flex;
+  line-height: 1;
 }
 
 .title-initial p {
-  font-size: 9px;
+  font-size: 15px;
   font-family: Poppins;
   color: #fff;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .button-container {
-  width: 360px;
-  height: 50px;
+  width: 550px;
+  height: 60px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #button-try {
-  width: 360px;
-  height: 40px;
+  width: 550px;
+  height: 60px;
   font-family: Poppins;
   font-weight: 400;
-  font-size: 9px;
+  font-size: 15px;
   color: #fff;
   border-radius: 8px;
   border-style: initial;
@@ -60,8 +62,8 @@
 }
 
 .card-container {
-  width: 360px;
-  height: 330px;
+  width: 550px;
+  height: 500px;
   border-radius: 8px;
   grid-column: 2/3;
   display: flex;
@@ -76,8 +78,8 @@
 #last-name,
 #email-register,
 #password-register {
-  width: 315px;
-  height: 40px;
+  width: 475px;
+  height: 60px;
   font-family: Poppins;
   font-weight: 400;
   font-size: 9px;
@@ -86,12 +88,20 @@
   margin-top: -9px;
 }
 
+input::placeholder {
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 500;
+  color: rgb(106, 106, 106);
+  padding-left: 20px;
+}
+
 #button-claim {
-  width: 315px;
-  height: 40px;
+  width: 480px;
+  height: 60px;
   font-family: Poppins;
   font-weight: 400;
-  font-size: 9px;
+  font-size: 14px;
   color: #fff;
   border-radius: 3px;
   border-style: initial;
@@ -100,4 +110,5 @@
   align-items: center;
   justify-content: center;
   margin-top: -5px;
+  letter-spacing: 2px;
 }
