@@ -61,6 +61,11 @@
   box-shadow: 0 7px 5px -5px rgb(35, 35, 35);
 }
 
+#button-try:hover {
+  background-color: hsla(246, 86%, 69%, 0.892);
+  cursor: pointer;
+}
+
 .card-container {
   width: 550px;
   height: 500px;
@@ -82,7 +87,8 @@
   height: 60px;
   font-family: Poppins;
   font-weight: 400;
-  font-size: 9px;
+  font-size: 16px;
+  padding-left: 30px;
   border: 1px solid rgb(227, 225, 225);
   border-radius: 7px;
 }
@@ -92,7 +98,6 @@ input::placeholder {
   font-family: Poppins;
   font-weight: 500;
   color: rgb(106, 106, 106);
-  padding-left: 20px;
 }
 
 #button-claim {
@@ -112,6 +117,11 @@ input::placeholder {
   letter-spacing: 2px;
 }
 
+#button-claim:hover {
+  background-color: rgb(32, 142, 95);
+  cursor: pointer;
+}
+
 .terms {
   font-family: Poppins;
   font-size: 12px;
@@ -120,8 +130,9 @@ input::placeholder {
   padding-bottom: 30px;
 }
 
-.terms-span {
+.terms-span a {
   color: rgb(211, 38, 38);
+  text-decoration: none;
 }
 
 .try-span {

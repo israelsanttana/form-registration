@@ -33,14 +33,30 @@
           </button>
         </div>
         <div class="card-container">
-          <input id="first-name" type="text" placeholder="Name" />
-          <input id="last-name" type="text" placeholder="Last Name" />
-          <input id="email-register" type="text" placeholder="Email Address" />
-          <input id="password-register" type="text" placeholder="Password" />
-          <button id="button-claim">CLAIM YOUR FREE TRIAL</button>
+          <input id="first-name" type="text" required placeholder="Name" />
+          <input id="last-name" type="text" required placeholder="Last Name" />
+          <input
+            id="email-register"
+            type="email"
+            required
+            placeholder="Email Address"
+          />
+          <input
+            id="password-register"
+            type="password"
+            placeholder="Password"
+            required
+          />
+          <button id="button-claim" type="submit">CLAIM YOUR FREE TRIAL</button>
           <p class="terms">
             By clicking the button, you are agreeing to our
-            <span class="terms-span">Terms and Services</span>
+            <span class="terms-span"
+              ><a
+                href="https://www.frontendmentor.io/challenges?difficulties=1&languages=HTML|CSS&types=free"
+                target="_blank"
+                >Terms and Services</a
+              ></span
+            >
           </p>
         </div>
       </div>
