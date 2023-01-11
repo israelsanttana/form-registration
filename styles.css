@@ -4,56 +4,68 @@
   box-sizing: border-box;
 }
 
-.general-container {
+html {
+  font-size: 65.5%;
+  font-family: Poppins;
+}
+body {
+  font-size: 1.6rem;
+}
+main {
+  width: 100vw;
+  height: 100vh;
   background-image: url(./images/bg-intro-desktop.png);
   background-color: rgba(235, 0, 0, 0.572);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-.title-initial {
-  width: 500px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 75px;
-  margin-right: 60px;
-}
-
-.title-initial h2 {
-  font-size: 47px;
-  font-family: Poppins;
-  font-weight: 600;
-  color: #fff;
-  display: flex;
-  line-height: 1;
-}
-
-.title-initial p {
-  font-size: 15px;
-  font-family: Poppins;
-  color: #fff;
-  margin-top: 20px;
-}
-
-.button-container {
-  width: 550px;
-  height: 60px;
-  margin-bottom: 20px;
+.general-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2rem;
+}
+
+.title-initial {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-right: 5rem;
+}
+
+.title-initial h2 {
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  padding-right: 2rem;
+}
+
+.title-initial p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.inputs-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.button-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
 }
 
 #button-try {
-  width: 550px;
-  height: 60px;
-  font-family: Poppins;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: #fff;
   border-radius: 8px;
   border-style: initial;
@@ -67,13 +79,12 @@
 }
 
 .card-container {
-  width: 550px;
-  height: 500px;
+  width: 100%;
+  height: auto;
+  padding: 3rem;
   border-radius: 8px;
-  grid-column: 2/3;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   background-color: #fff;
   align-items: center;
   box-shadow: 0 7px 5px -5px rgb(77, 77, 77);
@@ -83,51 +94,47 @@
 #last-name,
 #email-register,
 #password-register {
-  width: 475px;
-  height: 60px;
-  font-family: Poppins;
+  width: 100%;
+  height: auto;
+  padding: 1.4rem;
+  margin-bottom: 2rem;
   font-weight: 400;
-  font-size: 16px;
-  padding-left: 30px;
+  font-size: 1.6rem;
   border: 1px solid rgb(227, 225, 225);
   border-radius: 7px;
 }
 
 input::placeholder {
-  font-size: 14px;
-  font-family: Poppins;
+  font-size: 1.4rem;
   font-weight: 500;
   color: rgb(106, 106, 106);
 }
 
 #button-claim {
-  width: 480px;
-  height: 60px;
-  font-family: Poppins;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #fff;
   border-radius: 7px;
   border-style: initial;
   background-color: hsla(154, 59%, 51%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -5px;
   letter-spacing: 2px;
 }
 
 #button-claim:hover {
-  background-color: rgb(32, 142, 95);
+  background-color: rgba(56, 204, 140, 0.778);
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .terms {
-  font-family: Poppins;
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 550;
   color: rgb(166, 164, 164);
-  padding-bottom: 30px;
+  margin-top: 1rem;
+  padding: 1rem 0rem 2rem;
 }
 
 .terms-span a {
@@ -137,4 +144,34 @@ input::placeholder {
 
 .try-span {
   font-weight: 600;
+}
+
+@media (max-width: 910px) {
+  body,
+  html {
+    font-size: 50%;
+  }
+  .title-initial {
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 668px) {
+  .general-container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .title-initial {
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+  .title-initial h2 {
+    font-size: 4rem;
+  }
+  #button-try {
+    padding: 3rem;
+    font-size: 2rem;
+  }
+  .terms {
+    text-align: center;
+  }
 }
